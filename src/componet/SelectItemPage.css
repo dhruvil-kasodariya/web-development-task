@@ -1,0 +1,141 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  /* margin: 0; */
+  font-family: Metropolis;
+}
+
+.app {
+  width: 646px;
+  height: 748px;
+  margin: 5%;
+  /* top: -472px;
+    left: -191px; */
+}
+
+.title-box {
+  width: 380.73px;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title-line {
+  width: 114px;
+  height: 0px;
+  border: 0.9px solid #c8c8c8;
+}
+
+.title-text {
+  height: 18px;
+  width: 126px;
+  margin: 0 13px;
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #007f61;
+}
+
+
+
+.options {
+  cursor: pointer;
+  display: flex;
+  justify-content: left;
+  margin-left: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.styled-table th {
+}
+
+.styled-table select {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.shipping-info {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  width: 380.73px;
+  margin: 5px 0;
+}
+
+.shipping-time {
+  color: #007f61;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.6;
+}
+
+.shipping-price {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cart-box {
+  padding: 0 20px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 341px;
+  height: 48px;
+  border-radius: 4px 4px 4px 0px;
+  background: #007f61;
+}
+
+.copy-right-box {
+  width: 381px;
+  display: flex;
+  justify-content: end;
+}
+
+.copy-right-symbol {
+  color: #000;
+  font-family: Inter;
+  font-size: 7.333px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.copy-right-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+}
